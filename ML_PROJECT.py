@@ -39,4 +39,4 @@ def recommendations(title):
     movie_indices = [i[0] for i in sim_scores]
     return titles.iloc[movie_indices]
 
-print(recommendations('Jumanji (1995)'))
+print(recommendations('Toy Story 2 (1999)'))
